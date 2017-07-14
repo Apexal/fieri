@@ -1,0 +1,1 @@
+from .fieri import app

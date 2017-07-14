@@ -3,7 +3,7 @@
 {% block content %}
 
 <div>
-  <h1>Hello</h1>
+    <h1>Hello {% if session['logged_in'] %}Frank{% endif %}</h1>
 
 </div>
 
